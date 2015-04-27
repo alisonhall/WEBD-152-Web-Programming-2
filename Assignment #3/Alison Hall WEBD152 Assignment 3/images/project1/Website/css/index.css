@@ -1,0 +1,18 @@
+html {
+	min-height: 100%;	
+}
+
+body {
+	background-image:url("../images/indexPic.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	z-index: 110;
+	bottom: 0;
+}

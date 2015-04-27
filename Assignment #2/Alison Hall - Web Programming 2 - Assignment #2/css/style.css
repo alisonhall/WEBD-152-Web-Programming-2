@@ -1,0 +1,288 @@
+* {
+	box-sizing: border-box;
+}
+/*
+ * Helper Class
+ */
+.site-wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*
+ * Type
+ */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+h1,
+h2,
+h3 {
+	font-family: "Oswald", serif;
+}
+h2 {
+	font-size: 50px;
+}
+/*
+ * Header Styles
+ */
+.main-header {
+	width: 100%;
+	background-color: #48D94E;
+	overflow: hidden;
+}
+.main-header .logo,
+.main-header h1 {
+	display: block;
+	float: left;
+}
+.main-header .logo {
+	font-size: 50px;
+	color: rgba(255,255,255,0.6);
+	margin: 20px 50px 0 0;
+}
+.main-header h1 {
+	text-transform: uppercase;
+}
+.main-header nav {
+	float: right;
+	margin-top: 15px;
+}
+.main-header ul {
+	margin: 15px 0 0 0;
+	padding: 0;
+}
+.main-header li {
+	display: inline-block;
+}
+.main-header nav a {
+	padding: 10px 15px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+}
+.main-header nav a:hover {
+	color: rgba(0,0,0,0.5);
+}
+/*
+ * Base Styles
+ */
+section {
+	padding: 50px 0;
+}
+/*
+ * Main Content
+ */
+.main-content {
+	background-image: url('../imgs/fresh_cut.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.main-content p{
+	max-width: 600px;
+	font-size: 25px;
+}
+/*
+ * Core Services
+ */
+.core-services {
+	background-color: #00873B;
+	overflow: hidden;
+	text-align: center;
+}
+.core-services ul {
+	margin: 0;
+	padding: 0;
+}
+.core-services li {
+	display: inline-block;
+	float: left;
+	max-width: 23%;		/* (target/context) * 100 = result    (280/1200)*100 = 23% */
+	border-radius: 5px;
+	margin: 1%;	 /*(10/1200)*100 = 1% */
+	text-align: center;
+	padding: 3% 4%;		 /*(35/1200)*100 = 3%      (45/1200)*100 = 4% */
+	background-color: rgba(255,255,255,0.6);
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+
+	/*padding: 25px;*/
+	/*margin: 15px;*/
+}
+.core-services i {
+	font-size: 80px;
+	color: rgb(57, 55, 57);
+	margin-bottom: 35px;
+}
+
+/*
+ * Values section
+ */
+.values {
+	background-color: #0B948B;
+	overflow: hidden;
+}
+.values .value {
+	float: left;
+	padding: 2%;	/* (target/context) * 100 = result    (25/1200)*100 = 2% */
+	margin: 1%;	/* (target/context) * 100 = result    (15/1200)*100 = 1.25% */
+}
+.values i {
+	font-size: 80px;
+	float: left;
+	margin: 15px 50px 0 15px;
+	color: rgba(0,0,0,0.7);
+}
+.values .large {
+	max-width: 870px;
+	background-color: rgba(255,255,255,0.3);
+}
+.values .small {
+	max-width: 270px;
+	background-color: rgba(255,255,255,0.5);
+}
+/*
+ * Contact styles
+ */
+.contact {
+	background-color: #5F7885;
+	overflow: hidden;
+}
+.contact h2 {
+	color: #fff;
+	margin-top: 0;
+}
+.contact form {
+	width: 67%;	/* (target/context) * 100 = result    (800/1200)*100 = 67% */
+}
+.contact input,
+.contact textarea {
+	width: 87.5%;	/* (target/context) * 100 = result    (700/800)*100 = 87.5% */
+	float: left;
+	border: 1px solid #0D495E;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.6);
+}
+.contact textarea {
+	height: 200px;
+}
+.contact div {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.contact input[type="submit"] {
+	width: 200px;
+	float: right;
+	background-color: #48D94E;	
+}
+.contact label {
+	width: 12%;	/* (target/context) * 100 = result    (100/800)*100 = 12.5% */
+	float: left;
+	color: #fff;
+	text-align: right;
+	padding-right: 15px;
+	display: inline-block;
+}
+/*
+ * Footer Styles
+ */
+.main-footer {
+	padding: 50px;
+	background-color: #0D495E;
+	overflow: hidden;
+	color: #fff;
+}
+.main-footer ul {
+	margin: 0;
+	padding: 0;
+}
+.main-footer li {
+	width: 33%;		/* (target/context) * 100 = result    (400/1200)*100 = 33% */
+	display: inline-block;
+	float: left;
+}
+.main-footer p {
+	margin: 0;
+}
+.main-footer i {
+	font-size: 	50px;
+	margin-right: 15px;
+}
+.main-footer a {
+	color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+@media screen and (max-width: 1220px) and (min-width: 620px) {
+	.site-wrap {
+		padding: 1%;
+	}
+	.core-services li {
+		max-width: 46%;	/* (target/context) * 100 = result    (280/1200)*100 = 23%  	23*2=46% */
+		margin: 2%;
+	}
+	.values .large,
+	.values .small {
+		max-width: 46%;
+		height: 350px;
+		margin: 2%;
+	}
+	.contact form {
+		width: 100%;
+	}
+	.contact input,
+	.contact textarea {
+		width: 88%;	/* 100-12=88 */
+	}
+}
+
+
+@media screen and (max-width: 835px) {
+	.site-wrap {
+		padding: 1%;
+	}
+	.main-header .logo,
+	.main-header h1,
+	.main-header nav {
+		width: 100%;
+		text-align: center;
+		margin: 0 0 5px 0;
+		padding: 0;
+	}
+	.core-services li {
+		max-width: 100%;	/* (target/context) * 100 = result    (280/1200)*100 = 23%  	23*2=46% */
+		/*margin: 1%;*/
+	}
+	.values .large,
+	.values .small {
+		max-width: 100%;
+		height: auto;
+	}
+	.contact form {
+		width: 100%;
+	}
+	.contact input,
+	.contact textarea {
+		width: 100%;	/* (target/context) * 100 = result    (700/800)*100 = 87.5% */
+	}
+	.contact label {
+		padding-right: 0;
+		min-width: 100px;
+		text-align: left;
+	}
+	.main-footer {
+		text-align: center;
+	}
+	.main-footer li {
+		width: 100%;		/* (target/context) * 100 = result    (400/1200)*100 = 33% */
+	}
+
+}

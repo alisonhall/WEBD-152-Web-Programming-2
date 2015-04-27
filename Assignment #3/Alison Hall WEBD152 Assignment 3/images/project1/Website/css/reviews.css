@@ -1,0 +1,59 @@
+body{
+	background-image:url("../images/WoodFine0024_M.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#wrapper{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	background-color: white;
+}
+
+.section{
+	width:700px;
+	height:auto;
+	margin:0 auto;
+	border-top: 1px solid black;
+	padding-top: 60px;
+	margin-top: 50px;
+}
+
+h1{
+	font-family:'Copperplate Gothic', 'Copperplate Gothic Light', 'Copperplate', Copperplate, sans-serif;
+	font-weight: bold;
+	font-size:33px;
+	text-align: center;
+	padding-top: 90px;
+}
+
+h2{
+	font-weight: bold;
+	padding-bottom:15px;
+}
+
+.article{
+	font-family:Tahoma;
+	font-size:14px;
+	padding-bottom:50px;
+}
+
+.review{
+	padding-top: 20px;
+	text-indent: 2em;
+}
+
+footer, .footerBack {
+	position: static;
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+.footContent {
+	position: relative;
+	bottom: 30px;
+	padding-bottom: 0;
+	margin-bottom: -30px;
+}

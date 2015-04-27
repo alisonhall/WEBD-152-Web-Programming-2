@@ -1,0 +1,35 @@
+.wrapper {
+	border: 1px solid black;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: center;*/
+	align-items: center;
+	flex-wrap: wrap;
+	/*align-content: center;*/
+}
+.box {
+	height: 100px;
+	width: 100px;
+	background: #F91AB7;
+	border: 1px solid black;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	/*margin: auto;*/
+	flex-grow: 1;
+}
+.box5 {
+	/* default order is 1 */
+	order: 3;
+	align-self: center;
+	/*flex-basis: 300px;*/
+	flex-grow: 3;
+}
+.box3 {
+	order: 4;
+}
+.box4 {
+	order: 4;
+}

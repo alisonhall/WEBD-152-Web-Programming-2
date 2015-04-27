@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.main-header {
+	height: 100vh;
+	background-image: url(images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.main-header h1 {
+	background: rgba(255,255,255,0.4);
+	padding: 50px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: auto;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+.content {
+	width: 70%;
+}
+.main-sidebar {
+	width: 30%;
+}
+.main-footer {
+	padding: 50px;
+	background: black;
+	color: white;
+	text-align: center;
+}

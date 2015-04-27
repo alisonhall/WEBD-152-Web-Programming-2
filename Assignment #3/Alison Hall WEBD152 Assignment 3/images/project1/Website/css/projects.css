@@ -1,0 +1,110 @@
+body{
+	background-image:url("../images/WoodFine0024_M.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#wrapper{
+	width:958px;
+	background-color:white;
+	height:auto;
+	margin:0 auto;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+#newHomes {
+	float: left;
+	margin-left: 80px;
+	width: 350px;
+}
+
+#renoAdd {
+	float: right;
+	width: 350px;
+	margin-right: 80px;
+}
+
+#renoAdd h3 {
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+
+.homesBox {
+	float: left;
+	width: 350px;
+	margin-bottom: 40px;
+}
+
+.thumbCol1 {
+	width: 55px;
+	float: left;
+}
+
+.thumbCol2{
+	width: 55px;
+	float: left;
+}
+
+.mainPic {
+	margin: 5px;
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.thumbPic {
+	margin: 5px 5px 0px 5px;
+	float: left;
+	height: 46.25px;
+	width: 46.25px;
+	z-index: 130;
+}
+
+h3 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-family: 'Copperplate Gothic', 'Copperplate Gothic Light', 'Copperplate', Copperplate, sans-serif;
+	font-weight: bold;
+	font-size: 33px;
+	padding-left: 10px;
+}
+
+h6 {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	margin-left: 40px;
+}
+
+.misc {
+	clear: both;
+	left: 100px;
+	height: 110px;
+	margin-left: 80px;
+}
+
+.misc .thumbPic {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+footer, .footerBack {
+	position: static;
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+.footContent {
+	position: relative;
+	bottom: 30px;
+	padding-bottom: 0;
+	margin-bottom: -30px;
+}
+
+.blurb {
+	display: none;
+}

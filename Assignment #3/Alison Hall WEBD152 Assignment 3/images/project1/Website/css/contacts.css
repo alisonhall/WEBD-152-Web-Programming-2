@@ -1,0 +1,87 @@
+body{
+	background-image:url("../images/WoodFine0024_M.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+#wrapper{
+	width:960px;
+	height:800px;
+	background-color: white;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Copperplate Gothic', 'Copperplate Gothic Light', 'Copperplate', Copperplate, sans-serif;
+	font-size: 33px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+h2{
+	font-family:Century Gothic, "Century Gothic", sans-serif;
+	margin-top: 50px;
+	font-size: 24px;
+}
+
+#content{
+	width:700px;
+	height:auto;
+	margin:0 auto;
+	border-top:1px solid black;
+	margin-top: 50px;
+}
+
+.p{
+	padding-bottom: 25px;
+	font-size: 18px;
+	font-family:Tahoma;
+}
+
+.leftBox,
+.rightBox{
+	padding-bottom: 50px;
+}
+
+.leftBox{
+	width:auto;
+	height:auto;
+	float: left;
+	margin-top: 25px;
+}
+
+.rightBox{
+	float: right;
+	font-size: 18px;
+	font-family:Tahoma;
+	width:auto;
+	height: auto;
+	margin-top: 25px;
+	margin-right: 75px;
+}
+
+.link2 a,
+.rightEmail a{
+	color:blue;
+	text-decoration: none;
+}
+
+.rightInfo p{
+	padding-bottom: 25px
+}
+
+footer, .footerBack {
+	position: static;
+	clear: both;
+	width: 100%;
+	height: 30px;
+}
+
+.footContent {
+	position: relative;
+	bottom: 30px;
+	padding-bottom: 0;
+	margin-bottom: -30px;
+}

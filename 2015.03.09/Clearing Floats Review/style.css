@@ -1,0 +1,42 @@
+/*Help classes*/
+
+/*Clearfix*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	border: 1px solid #555;
+}
+header {
+	background: #ff89AB;
+	padding: 15px;
+	text-transform: uppercase;
+}
+footer {
+	background: #BA44E7;
+	padding: 10px;
+}
+header,
+footer {
+	color: #fff;
+}
+.content {
+	width: 70%;
+}
+.sidebar {
+	width: 30%;
+}
+.content,
+.sidebar {
+	float: left;
+}
+
+

@@ -1,0 +1,59 @@
+body {
+	background-color: #555;
+}
+
+nav {
+	background: #45faa8;
+}
+li {
+	display: inline-block;
+	padding: 15px 25px;
+	position: relative;
+}
+.current::after,
+li:hover::after {
+	content: "";
+	border: 10px solid transparent;
+	border-bottom-color: white;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -10px;
+}
+/*Sub-Menu*/
+li:hover .sub-menu {
+	display: block;
+}
+.sub-menu {
+	position: absolute;
+	background: #fff;
+	display: none;
+	left: 0;
+	top: 46px;
+	z-index: 400;
+}
+.sub-menu li {
+	display: block;
+}
+/*Form*/
+form {
+	background-color: #3c5499;
+	padding: 50px;
+}
+input {
+	background-color: #273a71;
+	color: white;
+}
+form div {
+	display: inline-block;
+	position: relative;
+	margin-right: 25px;
+}
+.required::after {
+	content: "*";
+	color: fuchsia;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}

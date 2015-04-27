@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	background-color: #333;
+}
+.main-container {
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 15px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+/*
+ * Header
+ */
+header {
+	overflow: hidden;
+	border-bottom: 1px solid #455;
+}
+.logo {
+	width: 100px;
+	float: left;
+}
+.site-title {
+	display: inline-block;
+	width: 800px;
+}
+.site-title h1 {
+	float: left;
+	margin-top: 35px;
+	padding-left: 35px;
+	text-transform: uppercase;
+}
+.site-nav {
+	float: right;
+}
+.site-nav ul {
+	margin: 45px 0 0 0;
+	padding: 0;
+}
+.site-nav a{
+	color: #333;
+	text-decoration: none;
+}
+.site-nav li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 0 15px;
+}
+/*
+ * Content
+ */
+.content {
+	padding: 10px;
+	width: 800px;
+	float: left;
+}
+.hero-image {
+	width: 800px;
+}
+aside {
+	width: 370px;
+	float: left;
+}
+aside ul {
+	margin: 0;
+	padding: 0;
+}
+aside li {
+	padding-left: 5px;
+	display: block;
+}
+/*
+ * Footer
+ */
+footer {
+	clear:both;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 50px;
+	background: #F7F7F7;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer li {
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+}
+footer p {
+	margin: 0;
+}
